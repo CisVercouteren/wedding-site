@@ -31,7 +31,7 @@ const Header = () => {
               behavior: 'smooth'
             });
           }}>
-          <img className="w-16" src="../src/assets/logo.png" alt="" onClick={() => {
+          <img className="w-16" src="wedding-site/src/assets/logo.png" alt="" onClick={() => {
             console.log('clicked img');
             window.scroll({
               top: 0, 

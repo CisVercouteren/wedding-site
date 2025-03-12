@@ -4,12 +4,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 const GalleryGrid = () => {
   const images = [
-    { src: '/src/assets/pironne.avif', span: 'col-span-2' },
-    { src: '/src/assets/7A54B0F5-01DB-40AD-A163-B2CBF0F8C472_1_105_c.jpeg', span: 'col-span-1' },
-    { src: '/src/assets/pironne4.jpg', span: 'col-span-1 row-span-2'},
-    { src: '/src/assets/pironne2.jpg', span: 'col-span-1' },
-    { src: '/src/assets/pironne3.jpg', span: 'col-span-1 hidden lg:block' }, 
-    { src: '/src/assets/pironne5.jpg', span: 'col-span-2' },
+    { src: 'wedding-site/src/assets/pironne.avif', span: 'col-span-2' },
+    { src: 'wedding-site/src/assets/7A54B0F5-01DB-40AD-A163-B2CBF0F8C472_1_105_c.jpeg', span: 'col-span-1' },
+    { src: 'wedding-site/src/assets/pironne4.jpg', span: 'col-span-1 row-span-2'},
+    { src: 'wedding-site/src/assets/pironne2.jpg', span: 'col-span-1' },
+    { src: 'wedding-site/src/assets/pironne3.jpg', span: 'col-span-1 hidden lg:block' }, 
+    { src: 'wedding-site/src/assets/pironne5.jpg', span: 'col-span-2' },
   ];
 
   const settings = {
@@ -41,7 +41,7 @@ const GalleryGrid = () => {
       <h2 className="text-6xl xl:text-7xl font-written mb-3 text-gray-700 text-center w-full py-24">
             Sfeerbeelden
           </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-[300px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-[300px] xl:auto-rows-[400px]">
           {images.map((image, index) => (
             <div 
               key={index} 
