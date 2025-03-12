@@ -4,12 +4,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 const GalleryGrid = () => {
   const images = [
-    { src: 'wedding-site/src/assets/pironne.avif', span: 'col-span-2' },
-    { src: 'wedding-site/src/assets/7A54B0F5-01DB-40AD-A163-B2CBF0F8C472_1_105_c.jpeg', span: 'col-span-1' },
-    { src: 'wedding-site/src/assets/pironne4.jpg', span: 'col-span-1 row-span-2'},
-    { src: 'wedding-site/src/assets/pironne2.jpg', span: 'col-span-1' },
-    { src: 'wedding-site/src/assets/pironne3.jpg', span: 'col-span-1 hidden lg:block' }, 
-    { src: 'wedding-site/src/assets/pironne5.jpg', span: 'col-span-2' },
+    { src: '/wedding-site/pironne.avif', span: 'col-span-2' },
+    { src: '/wedding-site/7A54B0F5-01DB-40AD-A163-B2CBF0F8C472_1_105_c.jpeg', span: 'col-span-1' },
+    { src: '/wedding-site/pironne4.jpg', span: 'col-span-1 row-span-2'},
+    { src: '/wedding-site/pironne2.jpg', span: 'col-span-1' },
+    { src: '/wedding-site/pironne3.jpg', span: 'col-span-1 hidden lg:block' }, 
+    { src: '/wedding-site/pironne5.jpg', span: 'col-span-2' },
   ];
 
   const settings = {

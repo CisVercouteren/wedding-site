@@ -31,8 +31,7 @@ const Header = () => {
               behavior: 'smooth'
             });
           }}>
-          <img className="w-16" src="wedding-site/src/assets/logo.png" alt="" onClick={() => {
-            console.log('clicked img');
+          <img className="w-16 hover:cursor-pointer" src="/wedding-site/logo.png" alt="" onClick={() => {
             window.scroll({
               top: 0, 
               behavior: 'smooth'

@@ -34,7 +34,7 @@ const donts = [
 const ColorPaletteSection = () => {
 
   return (
-    <div id='dresscode' className="relative mx-auto px-4 py-16 bg-[url(src/assets/palmtrees.jpg)] bg-cover w-[100vw] xopacity-85">
+    <div id='dresscode' className="relative mx-auto px-4 py-16 bg-[url(/wedding-site/palmtrees.jpg)] bg-cover w-[100vw] xopacity-85">
       <div className='absolute inset-0 bg-white/45'/>
       <div className='relative'>
       <div className="text-center mb-12">

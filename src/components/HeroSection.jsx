@@ -12,8 +12,8 @@ const HeroSection = () => {
                 <span className="text-7xl xl:text-[7rem] font-lexend py-2 text-gold">08.</span>
                 <span className="text-7xl xl:text-[7rem] font-lexend py-2 text-gold">2025</span>
             </div>
-            <PhotoCard title="wat" className="lg:w-1/4 lg:min-w-1/4" src="wedding-site/src/assets/cis_ine_walk.jpeg" subtitle="Trouw Cis & Ine"/>
-            <PhotoCard title="waar" className="lg:w-1/4 lg:min-w-1/4" src="wedding-site/src/assets/chateau-pironne.jpg" subtitle="Chateau Pironne"/>
+            <PhotoCard title="wat" className="lg:w-1/4 lg:min-w-1/4" src="/wedding-site/cis_ine_walk.jpeg" subtitle="Trouw Cis & Ine"/>
+            <PhotoCard title="waar" className="lg:w-1/4 lg:min-w-1/4" src="/wedding-site/chateau-pironne.jpg" subtitle="Chateau Pironne"/>
         </section>
     )
 }
