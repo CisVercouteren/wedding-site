@@ -5,9 +5,9 @@ const TimelineSection = () => {
   return (
     <section id='planning' className="py-24 px-4 bg-cream my-10">
       <div className="max-w-3xl xl:max-w-7xl mx-auto">
-        <div className="mb-28 text-center">
+        <div className="mb-10 text-center">
           <h2 
-            className="text-6xl xl:text-7xl xfont-serif font-written mb-3 text-gray-700 relative z-30"
+            className="text-6xl xl:text-7xl xfont-serif font-written text-gray-700 py-10"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
