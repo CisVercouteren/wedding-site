@@ -7,7 +7,7 @@ const TimelineSection = () => {
       <div className="max-w-3xl xl:max-w-7xl mx-auto">
         <div className="mb-28 text-center">
           <h2 
-            className="text-6xl xl:text-7xl xfont-serif font-written mb-3 text-gray-700"
+            className="text-6xl xl:text-7xl xfont-serif font-written mb-3 text-gray-700 relative z-30"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
