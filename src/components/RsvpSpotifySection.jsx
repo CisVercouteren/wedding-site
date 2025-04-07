@@ -5,7 +5,7 @@ const RsvpSpotifySection = () => {
     name: '',
     email: '',
     amount: 1,
-    attending: 'ja',
+    attending: 'ja-alles',
     comments: ''
   });
   const [loading, setLoading] = useState(false);
@@ -18,7 +18,6 @@ const RsvpSpotifySection = () => {
     setError(null);
     
     try {
-      const attending = formData.attending == "ja" ? true : false;
       const response = await fetch('https://api.airtable.com/v0/appX79QAYY9dJAErf/tblQNdPYv6CEwsimP', {
         method: 'POST',
         headers: {
@@ -30,7 +29,7 @@ const RsvpSpotifySection = () => {
             fields: {
               Naam: formData.name,
               Email: formData.email,
-              Aanwezig: attending,
+              Aanwezig: formData.attending,
               Aantal: +formData.amount,
               Comment: formData.comments
             }
@@ -107,7 +106,8 @@ const RsvpSpotifySection = () => {
               onChange={handleChange}
               className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-gold"
             >
-              <option value="ja">JA 🙌</option>
+              <option value="ja-alles">JA, de hele dag 🙌</option>
+              <option value="ja-ceremonie">JA, vanaf ceremonie 🙌</option>
               <option value="nee">NEE 🚫</option>
             </select>
           </div>
