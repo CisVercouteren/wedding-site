@@ -3,7 +3,7 @@ const CadeautipsSection = () => {
     <section id='cadeautip' className="py-12 px-4">
       <div className="max-w-3xl mx-auto text-center">
         <h2 
-          className="text-6xl xl:text-7xl font-written text-gray-700 mb-16"
+          className="text-[3.75rem] xl:text-7xl font-written text-gray-700 mb-16"
           data-aos="fade-up"
           data-aos-duration="1200"
         >
