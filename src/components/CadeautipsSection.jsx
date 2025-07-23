@@ -1,13 +1,13 @@
 const CadeautipsSection = () => {
   return (
-    <section id='cadeautips' className="py-12 px-4">
+    <section id='cadeautip' className="py-12 px-4">
       <div className="max-w-3xl mx-auto text-center">
         <h2 
           className="text-6xl xl:text-7xl font-written text-gray-700 mb-16"
           data-aos="fade-up"
           data-aos-duration="1200"
         >
-          Cadeautips
+          Cadeautip
         </h2>
         
         <div 

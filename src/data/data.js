@@ -3,7 +3,7 @@ export const navigationLinks = [{
     title: "planning"
 }, {
     id: 2,
-    title: "cadeautips"
+    title: "cadeautip"
 }, {
     id: 3,
     title: "sfeerbeelden"
