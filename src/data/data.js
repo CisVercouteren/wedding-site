@@ -3,9 +3,12 @@ export const navigationLinks = [{
     title: "planning"
 }, {
     id: 2,
+    title: "cadeautips"
+}, {
+    id: 3,
     title: "sfeerbeelden"
 },{
-    id: 3,
+    id: 4,
     title: "dresscode"
 }]
 

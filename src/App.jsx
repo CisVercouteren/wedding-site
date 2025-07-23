@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 import TimelineSection from './components/TimelineSection';
+import CadeautipsSection from './components/CadeautipsSection';
 import ColorPaletteSection from './components/ColorPaletteSection';
 import RsvpSpotifySection from './components/RsvpSpotifySection';
 import GalleryGrid from './components/GalleryGrid';
@@ -23,6 +24,7 @@ const App = () => {
       <Header />
       <HeroSection />
       <TimelineSection />
+      <CadeautipsSection />
       <GalleryGrid />
       <ColorPaletteSection />
       <RsvpSpotifySection />
